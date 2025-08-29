@@ -12,7 +12,7 @@
 -> Loading and error states
 
 
-## Tech Stacks
+## 🛠️ Tech Stacks
 
 -> **Frontend:** React + Vite
 -> **Styling:** TailwindCSS
@@ -38,16 +38,16 @@
 5. **Usage**
 How to use the app:
     ```md
-## Usage
+## 📖 Usage
 
 -> Type a city name in the search bar and press enter.
 -> Click the "Current Location" button to fetch  your current location weather
 
-## API
+## 🌐 API
 
 This app uses the free [Open-Meteo API](https://open-meteo.com/) for:
 -> Weather data (`/forecast`)
 -> Geocoding (`/search`)
 
-## Screenshot
+## 📸 Screenshot
 ![Weather App Screenshot](/public/weather-app.png)
