@@ -35,10 +35,8 @@
 
 4. Open in browser: http://localhost:5173
 
-5. **Usage**
-How to use the app:
-    ```md
-## 📖 Usage
+## 📖 How to use the app:
+**Usage**
 
 - Type a city name in the search bar and press enter.
 - Click the "Current Location" button to fetch  your current location weather
