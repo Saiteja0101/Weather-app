@@ -1,12 +1,53 @@
-# React + Vite
+# 🌦️ Weather App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+-> A simple React-based weather application that shows current weather conditions, temperature, humidity, and wind speed using the Open-Meteo API.  
+-> You can search by city name or fetch weather using your current location.
 
-Currently, two official plugins are available:
+## This Weather App provide features like:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+-> Search weather conditions by city, country, or state name
+-> Get weather for your current location
+-> It shows temperature, condition, humidity, and wind speed with icons
+-> Responsive UI with TailwindCSS (for both desktop and mobile)
+-> Loading and error states
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Tech Stacks
+
+-> **Frontend:** React + Vite
+-> **Styling:** TailwindCSS
+-> **API:** Open-Meteo API (Weather + Geocoding)
+
+## 🚀 Installation & Setup
+
+1. Clone the repository
+   ```bash
+   https://github.com/Saiteja0101/Weather-app.git
+   cd weather-app
+
+2. Install dependencies
+    ```bash
+    npm install
+
+3. Start development server
+    ```bash
+    npm run dev
+
+4. Open in browser: http://localhost:5173
+
+5. **Usage**
+How to use the app:
+    ```md
+## Usage
+
+-> Type a city name in the search bar and press enter.
+-> Click the "Current Location" button to fetch  your current location weather
+
+## API
+
+This app uses the free [Open-Meteo API](https://open-meteo.com/) for:
+-> Weather data (`/forecast`)
+-> Geocoding (`/search`)
+
+## Screenshot
+![Weather App Screenshot](/public/weather-app.png)
